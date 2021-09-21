@@ -3,15 +3,13 @@
     <head>
         <title>Praveen Bio</title>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="icon" type="image/jpg" href="Initial_P.jpg"/>
+        <link rel="icon" type="image/jpg" href="p_icon.svg"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
-
       <header class="header">
         <nav class="navbar navbar-style" id="navbar">
           <div class="container">
@@ -21,29 +19,38 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a href="http://"><img class="logo" src="Initial_P.jpg" alt=""></a>
+              <a href="http://"><img class="logo" src="p_icon.svg" alt=""></a>
             </div>
             <div class="collapse navbar-collapse" id="menu-icon">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="Praveen_web.html">HOME</a></li>
-                <li><a href="#portfolio">EDUCATION</a></li>
-                <li><a href="#exp">EXPERIENCES</a></li>
-                <li><a href="Praveen_web.html">HELP</a></li>
+                <li><a href="INDEX.html">ABOUT ME</a></li>
+                <li><a href="#portfolio">EXPERIENCE</a></li>
+                <li><a href="#portfolio">SKILLS</a></li>
+                <li><a href="#exp">EDUCATION</a></li>
+                <li><a href="Praveen_web.html">CONTACT</a></li>
               </ul>
             </div>
           </div>
         </nav>
 
-    
+  
         <div class="container initial">
           <div class="row">
             <div class="col-sm-6">
-              <h1 class="normal white">
+              <h1 class="normal black">
                 PRAVEEN ASOKAN
               </h1>
               <p class="big-text">Automation Test Analyst...!</p>
               <p class="p-normal">An experienced automation tester who is passionate about doing automation stuffs which helps to improve the quality of the product in effective manner.</p>
+
               <a class="btn" href="Praveen_resume.docx">Download Resume</a>
+
+              <div class="container">
+                <a href="https://www.linkedin.com/in/praveen-asokan-07b45920b" class="fa fa-linkedin" target="_blank"></a>
+                <a href="https://www.facebook.com/praveen.ashokan.14" class="fa fa-facebook" target="_blank"></a>
+                <a href="https://www.twitter.com/ASPraveenN1" class="fa fa-twitter" target="_blank"></a>
+              </div>
+
             </div>
             <!-- <div class="col-sm-6">
                <img src="Pic.png" alt="" class="img-responsive">
@@ -52,11 +59,14 @@
         </div>
       </header>
 
-      <div class="portfolio" id="portfolio">
+      <div class="experience" id="experience">
         <div class="container edu">
           <h1 class="normal black">
-            EDUCATION
+            EXPERIENCES
           </h1>
+          <p class=regular>
+            Cognizant Technology Solutions : (Client - Centrica)
+          </p>
             <!-- <section class="cms-boxes">
                <div class="container-fluid">
                   <div class="row">
@@ -84,25 +94,50 @@
                </div>
             </section> -->
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-9">
               <div class="card">
-                <img class="card-img-top" src="schooling.jpg" alt="Card image cap">
+                <!-- <img class="card-img-top" src="schooling.jpg" alt="Card image cap"> -->
                 <div class="card-body">
                   <div class="card-content">
-                    <h1 class="small"><b>Higher Secondary</b></h1>
-                    <p class="card-text">Completed my higher secondary education in Sri Mahabharathi Hr.Sec School</p>
-                    <p class="card-text"><b>Year of completion - </b> 2012</p>
+                    <h1 class="small"><b>Regression Automation Testing using TOSCA and UFT</b></h1>
+                    <p class="card-text">I’ve worked in Web and SAP automation using TOSCA Automation tool. I’ve developed different test cases for SAP as well as Web and integrate both in TOSCA and supported the regression team to do the release quickly using automation without any defects. </p>
+                    <p class="card-text">Also, i had 3 months of experience in UFT, HP ALM, and JIRA  tools to automate and Trigger the UFT scripts via HP ALM and JIRA to capture the bugs.</p>
                   </div>
                 </div>
               </div>
               <div class="card">
-                <img class="card-img-top" src="college.jpg" alt="Card image cap">
+                <!-- <img class="card-img-top" src="college.jpg" alt="Card image cap"> -->
                 <div class="card-body">
                   <div class="card-content">
-                    <h1 class="small"><b>Bachelor's Degree</b></h1>
-                    <p class="card-text">Completed Bachelor's degree in Mechanical Engineering in KCT in 2016</p>
-                    <p class="card-text"><b>Years - </b> 2012 - 2016</p>
-                    <p class="card-text"><b>CGPA - </b> 8.75</p>
+                    <h1 class="small"><b>SMART Automation Testing using Squish and TOSCA</b></h1>
+                    <p class="card-text">Worked in one of the challenging projects to automate the GUI application using Squish Automation tool with python and SAP using TOSCA. In addition, I worked on the integration of Squish and TOSCA via email trigger and TCShell commands to make it end to end journeys in SMART.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <!-- <img class="card-img-top" src="college.jpg" alt="Card image cap"> -->
+                <div class="card-body">
+                  <div class="card-content">
+                    <h1 class="small"><b>Web Component Testing using Selenium BDD and Java</b></h1>
+                    <p class="card-text">I’m currently working in British Gas Design System with Agile Methodology and used to create the BDD test steps for web components and develop test cases using Selenium with Java. Also, I’ve implemented Visual Regression testing in design system to find the visual bugs in components as well as webpages.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <!-- <img class="card-img-top" src="college.jpg" alt="Card image cap"> -->
+                <div class="card-body">
+                  <div class="card-content">
+                    <h1 class="small"><b>Automation using Python Behave BDD framework</b></h1>
+                    <p class="card-text">I’ve experienced in testing using Python behave BDD framework along with selenium and in creating reusable functions and assertion validation.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <!-- <img class="card-img-top" src="college.jpg" alt="Card image cap"> -->
+                <div class="card-body">
+                  <div class="card-content">
+                    <h1 class="small"><b>API Testing using Postman and TOSCA</b></h1>
+                    <p class="card-text">I’ve experienced in API testing using TOSCA and Postman. Also, I’ve created the functions in Python using APIs to create, delete issues in gitHub .</p>
                   </div>
                 </div>
               </div>
@@ -110,16 +145,9 @@
           </div>
         </div>
       </div>
-       
 
-      <!-- <div class="content" id="exp">
-        <div class="container">
-          <h1 class="normal">
-            AUTOMATION EXPERIENCES
-          </h1>
-        </div>
-      </div>
-         -->
-     
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     </body>
 </html>
